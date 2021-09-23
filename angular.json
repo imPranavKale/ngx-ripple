@@ -3,5 +3,37 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-  }
+    "ripple": {
+      "projectType": "library",
+      "root": "projects/ripple",
+      "sourceRoot": "projects/ripple/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "projects/ripple/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/ripple/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/ripple/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/ripple/src/test.ts",
+            "tsConfig": "projects/ripple/tsconfig.spec.json",
+            "karmaConfig": "projects/ripple/karma.conf.js"
+          }
+        }
+      }
+    }
+  },
+  "defaultProject": "ripple"
 }
