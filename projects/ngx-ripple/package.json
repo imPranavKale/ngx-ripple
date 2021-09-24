@@ -1,6 +1,6 @@
 {
-  "name": "ngx-ripple",
-  "version": "0.0.1",
+  "name": "ngx-ripple-effect",
+  "version": "1.0.1",
   "peerDependencies": {
     "@angular/common": "^12.2.0",
     "@angular/core": "^12.2.0"

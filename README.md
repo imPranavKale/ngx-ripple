@@ -7,12 +7,14 @@ Add ripple animations to your buttons in Angular projects.
 Install ripple using npm:
 
 ```
-npm install ngx-ripple
+npm install ngx-ripple-effect
 ```
 
 Add `RippleModule` to your Angular project module.
 
 ```
+import { NgxRippleModule } from 'ngx-ripple-effect';
+
 //...
 @NgModule({
     bootstrap: [ /* ... */ ],
