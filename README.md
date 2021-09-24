@@ -1,6 +1,19 @@
 # NgxRipple
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.7.
+## How to use
+
+Install ripple using npm:
+
+```
+npm install ripple
+```
+
+Add `RippleModule` to your Angular project module.
+Use `ripple` component on your button.
+
+```
+<button ripple>Test button</button>
+```
 
 ## Development server
 
