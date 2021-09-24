@@ -1,24 +1,32 @@
-# Ripple
+# ngx-ripple
 
-This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.0.
+Add ripple animations to your buttons in Angular projects.
 
-## Code scaffolding
+## How to use:
 
-Run `ng generate component component-name --project ripple` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project ripple`.
-> Note: Don't forget to add `--project ripple` or else it will be added to the default project in your `angular.json` file. 
+Install ngx-ripple from npm
 
-## Build
+```
+npm install ngx-ripple
+```
 
-Run `ng build ripple` to build the project. The build artifacts will be stored in the `dist/` directory.
+Import `RippleModule` in your ngModule
 
-## Publishing
+```
+//...
+@NgModule({
+    bootstrap: [ /* ... */ ],
+    declarations: [ /* ... */ ],
+    imports: [
+        /* ... */,
+        RippleModule
+    ]
+})
+export class AppModule { /* ... */ }
+```
 
-After building your library with `ng build ripple`, go to the dist folder `cd dist/ripple` and run `npm publish`.
+Add `ripple` to your button
 
-## Running unit tests
-
-Run `ng test ripple` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```
+<button ripple>Test button</button>
+```
