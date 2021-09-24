@@ -15,9 +15,9 @@
     "moduleResolution": "node",
     "importHelpers": true,
     "paths": {
-      "ripple": [
-        "dist/ripple/ripple",
-        "dist/ripple"
+      "ngx-ripple": [
+        "dist/ngx-ripple/ngx-ripple",
+        "dist/ngx-ripple"
       ]
     },
     "target": "es2017",

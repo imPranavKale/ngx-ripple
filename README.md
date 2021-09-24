@@ -19,7 +19,7 @@ Add `RippleModule` to your Angular project module.
     declarations: [ /* ... */ ],
     imports: [
         /* ... */,
-        RippleModule
+        NgxRippleModule
     ]
 })
 export class AppModule { /* ... */ }

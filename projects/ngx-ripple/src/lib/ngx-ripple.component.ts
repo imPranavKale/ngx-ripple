@@ -30,7 +30,7 @@ import { Component, ElementRef, HostListener, Renderer2 } from '@angular/core';
   `],
   exportAs: 'ripple'
 })
-export class RippleComponent {
+export class NgxRippleComponent {
 
   public initialPosition: string = '';
   public initialOverflow: string = '';

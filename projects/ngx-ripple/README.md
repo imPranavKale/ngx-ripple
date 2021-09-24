@@ -10,7 +10,7 @@ Install ngx-ripple from npm
 npm install ngx-ripple
 ```
 
-Import `RippleModule` in your ngModule
+Import `NgxRippleModule` in your ngModule
 
 ```
 //...
@@ -19,7 +19,7 @@ Import `RippleModule` in your ngModule
     declarations: [ /* ... */ ],
     imports: [
         /* ... */,
-        RippleModule
+        NgxRippleModule
     ]
 })
 export class AppModule { /* ... */ }
