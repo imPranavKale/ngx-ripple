@@ -1,6 +1,36 @@
 {
   "name": "ngx-ripple-effect",
-  "version": "1.0.1",
+  "version": "1.0.2",
+  "description": "Add ripple animations to your buttons in Angular projects.",
+  "keywords": ["angular", "ripple", "component", "effect", "button"],
+  "author": {
+    "name": "Pranav Kale",
+    "email": "pranav.kale14@gmail.com",
+    "url": "https://github.com/imPranavKale"
+  },
+  "contributors": [
+    {
+      "name": "Pranav Kale",
+      "email": "pranav.kale14@gmail.com",
+      "url": "https://github.com/imPranavKale"
+    }
+  ],
+  "maintainers": [
+    {
+      "name": "Pranav Kale",
+      "email": "pranav.kale14@gmail.com",
+      "url": "https://github.com/imPranavKale"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/imPranavKale/ngx-ripple"
+  },
+  "homepage": "https://github.com/imPranavKale/ngx-ripple",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/imPranavKale/ngx-ripple/issues"
+  },
   "peerDependencies": {
     "@angular/common": "^12.2.0",
     "@angular/core": "^12.2.0"

@@ -1,6 +1,16 @@
 {
   "name": "ngx-ripple",
-  "version": "0.0.0",
+  "version": "1.0.2",
+  "description": "Add ripple animations to your buttons in Angular projects.",
+  "author": {
+    "name": "Pranav Kale",
+    "email": "pranav.kale14@gmail.com",
+    "url": "https://github.com/imPranavKale"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/imPranavKale/ngx-ripple"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
